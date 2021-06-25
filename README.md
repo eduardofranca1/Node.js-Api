@@ -1,20 +1,11 @@
-# VALORIZA API
+# Node.js API with JWT Token Authentication
 
-## Regras
+## About:
 
-- Cadastro de usuário
+Api where you can:
+- Create Users
+- Create Tags
+- Create Compliments
 
-    [ x ] Não é permitido mais de um usuário com o mesmo e-mail.
-    [ x ] Não é permitido cadastrar usuário sem e-mail.
-
-- Cadastro de TAG
-
-    [ x ] Não é permitido cadastrar tag sem nome.
-    [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome.
-    [ x ] Não é permitido o cadastro por usuários que não sejam administradores.
-
-- Cadastro de Elogios
-
-    [  ] Não é permitido um usuáio cadastrar um elogio para si.
-    [  ] Não é permitido cadastrar elogios para usuário inválidos.
-    [  ] O usuário precisa estar autenticado na aplicação.
+- To create tags for example: "Leadership", "Amazing person!", "Great professional!"
+- and you can add a Compliments to an User.
