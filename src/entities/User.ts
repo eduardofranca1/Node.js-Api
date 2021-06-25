@@ -1,3 +1,4 @@
+import { Exclude } from "class-transformer";
 import {Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn} from "typeorm";
 import { v4 as uuid } from "uuid";
 
@@ -16,6 +17,7 @@ class User {
     @Column()
     admin: boolean;
 
+    @Exclude() // para não retornar a senha na listagem de usuários
     @Column()
     password: string;
 

@@ -35,7 +35,7 @@ class AuthenticateUserService {
         {
             email: user.email
         },
-        "baaf9814fe50d823d9be0889454302ea", 
+        "baaf9814fe50d823d9be0889454302ea", // chave gerada através do MD5 HASH Generator
         {
             subject : user.id,
             expiresIn: "1d"
