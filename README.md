@@ -1,11 +1,21 @@
-# Node.js API with JWT Token Authentication
+# Node.js API 
+## JWT Token Authentication
+## Migrations
 
 ## About:
 
 Api where you can:
+
 - Create Users
 - Create Tags
 - Create Compliments
 
-- To create tags for example: "Leadership", "Amazing person!", "Great professional!"
+Permissions:
+
+- You can create Users and define if they are admin or not.
+- Some routes just be access if the user is authenticated.
+
+Create:
+
+- You can create tags for example: "Leadership", "Amazing person!", "Great professional!"
 - and you can add a Compliments to an User.
