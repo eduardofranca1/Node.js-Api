@@ -1,6 +1,10 @@
 # Node.js API 
-## JWT Token Authentication
-## Migrations
+
+## Technologies:
+- JWT Token Authentication
+- Migrations
+- Node.js
+- Typescript
 
 ## About:
 
