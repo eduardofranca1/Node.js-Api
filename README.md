@@ -1,10 +1,11 @@
-# Node.js API 
+# Node.js Rest API 
 
 ## Technologies:
 - JWT Token Authentication
 - Migrations
 - Node.js
 - Typescript
+- SQLite
 
 ## About:
 
@@ -23,3 +24,15 @@ Create:
 
 - You can create tags for example: "Leadership", "Amazing person!", "Great professional!"
 - and you can add a Compliments to an User.
+
+## How can i test my endpoints?
+
+Open your terminal in your code editor to run the project:
+
+- yarn dev
+
+For create and test the API you can use:
+
+- Insomnia
+- Postman
+
