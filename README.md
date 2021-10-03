@@ -1,4 +1,4 @@
-# Node.js Rest API 
+# Node Rest API 
 
 ## Technologies:
 - JWT Token Authentication
